@@ -59,3 +59,4 @@ Nmap uses multiple ways to specify its targets:
 | `-oX <filename>` | XML output |
 | `-oG <filename>` | `grep` -able output |
 | `-oA <basename>` | Output in all major formats |
+Also use `nmap --help` for infromation.
