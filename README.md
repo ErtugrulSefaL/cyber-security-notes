@@ -10,5 +10,5 @@ that can be useful both for myself and for others learning cybersecurity.
 ---
 
 ## 📚 Topics
-- [Cryptography](./Cryptography/README.md)
-- [Defensive Security](./Defensive_security/README.md)
+- [Cryptography](./content/Cryptography/README.md)
+- [Defensive Security](./content/Defensive_security/README.md)
