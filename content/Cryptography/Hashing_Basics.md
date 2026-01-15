@@ -16,7 +16,7 @@ Tags:
 ## Hashing_Basics
 
 
-> [!INFO] 
+> [!NOTE] 
 > **Hashing** is the process of converting input data (of any size) into a fixed-size value (called a _hash_ or _digest_) using a **hash function**.
 
 - Hash functions are different from encryption. There is no key, and it’s meant to be impossible (or computationally impractical) to go from the output back to the input.
