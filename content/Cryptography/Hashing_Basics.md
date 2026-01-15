@@ -1,3 +1,4 @@
+
 ---
 Main Topic: Cryptography
 Sub Topic: Hashing_Basics
@@ -15,7 +16,7 @@ Tags:
 ## Hashing_Basics
 
 
-> [!INFO] Hashing
+> [!INFO] 
 > **Hashing** is the process of converting input data (of any size) into a fixed-size value (called a _hash_ or _digest_) using a **hash function**.
 
 - Hash functions are different from encryption. There is no key, and it’s meant to be impossible (or computationally impractical) to go from the output back to the input.
@@ -28,7 +29,9 @@ Tags:
 - A hash collision is when two different inputs give the same output.
 - As there are more inputs than outputs, some inputs must inevitably give the same output.
 
-> [!fail] Collision
+> [!WARNING]
+> **Collision**
+>
 >  MD5 and SHA1 have been attacked and are now considered insecure due to the ability to engineer hash collisions.
 >  MD5 -> [MD5 Collision Demo](https://www.mscs.dal.ca/~selinger/md5collision/)
 >  SHA1 -> [Shattered](https://shattered.io/)
