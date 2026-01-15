@@ -9,12 +9,6 @@ that can be useful both for myself and for others learning cybersecurity.
 
 ---
 
-## 📁 Repository Structure
-
-```text
-content/
-	|── Cryptography/
-    |── Tools/
-    |── Defensive_security/
-    |── Attachments/
-    └── ...
+## 📚 Topics
+- [Cryptography](./Cryptography/README.md)
+- [Defensive Security](./Defensive_security/README.md)

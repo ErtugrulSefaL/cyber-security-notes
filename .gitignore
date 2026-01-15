@@ -1,2 +1,6 @@
-# Obsidian
+# Obsidian internal
 .obsidian/
+
+# Obsidian MOCs (Dataview based)
+*_MOC.md
+0-*_MOC.md
