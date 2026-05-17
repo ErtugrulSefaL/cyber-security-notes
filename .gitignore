@@ -1,0 +1,21 @@
+# Notes and Folders
+Apache-Web_Server_Software.md
+Github_callouts.md
+Abbreviations.md
+
+# Attachments
+Cyber_Notes_Attachments/
+
+# Templates
+Templates/
+
+# Syncyhing
+.stversions
+.stfolder
+*.sync-conflict-*
+
+# Obsidian
+.obsidian
+
+# Linux
+.directory
