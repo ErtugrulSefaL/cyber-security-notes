@@ -13,7 +13,7 @@ tags:
 
 # Incident_Response_Fundamentals
 
-> [!INFO] Incident Response
+> [!NOTE] Incident Response
 > Incident response (sometimes called cybersecurity incident response) refers to an organization’s processes and technologies for detecting and responding to cyberthreats, security breaches or cyberattacks. A formal incident response plan enables cybersecurity teams to limit or prevent damage.
 
 The goal of incident response is to prevent cyberattacks before they happen and minimize the cost and business disruption resulting from any cyberattacks that occur. Incident response is the technical portion of incident management, which also includes executive, HR and legal management of a serious incident.

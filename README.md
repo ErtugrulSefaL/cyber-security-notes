@@ -12,15 +12,12 @@
 
 | Topic                                                                 | Description                                   |
 | --------------------------------------------------------------------- | --------------------------------------------- |
-| [Cryptography](Cryptography/0_Cryptography_MOC)                       | Hashing, encoding, encryption, cracking tools |
-| [Defensive Security](Defensive_Security/0_Defensive_Security_MOC)     | SOC, forensics, incident response             |
-| [Exploitation Basics](Exploitation_Basics/MOC-Exploitation_Basics.md) | Metasploit, basic exploit techniques          |
-| [Network](Network/MOC-Network.md)                                     | Protocols, packet analysis, recon             |
-| [Network Security](Network_Security/MOC-Network_Security.md)          | Attacks, defenses, monitoring                 |
-| [Offensive Security](Offensive_Security/MOC-Offensive_Security.md)    | Offensive techniques and methodology          |
-| [Programs](Programs/MOC-Programs.md)                                  | CTF writeups, structured learning paths       |
-| [Tools](Tools/MOC-Tools.md)                                           | Tool references and cheatsheets               |
-| [Web Pentesting](Web_Pentesting/MOC-Web_Pentesting.md)                | OWASP, API security, web attacks              |
+| [Cryptography](/Cryptography/0_Cryptography_MOC.md)                   | Hashing, encoding, encryption, cracking tools |
+| [Defensive Security](/Defensive_Security/0_Defensive_Security_MOC.md) | SOC, forensics, incident response             |
+| [Network](/Network_Recon/0_Network_Recon_MOC.md)                      | Protocols, packet analysis, recon             |
+| [Offensive Security](/Offensive_Security/0_Offensive_Security_MOC.md) | Offensive techniques and methodology          |
+| [Web Pentesting](/Web_Pentesting/0_Web_Pentesting_MOC.md)             | OWASP, API security, web attacks              |
+| [Tools](/Tools/0_Tools_MOC.md)                                        | Tool references and cheatsheets               |
 
 ---
 
@@ -30,17 +27,20 @@
 CYBER_SECURITY/
 ├── Cryptography/
 ├── Defensive_Security/
-├── Exploitation_Basics/
 ├── Network/
-├── Network_Security/
 ├── Offensive_Security/
-├── Programs/
-├── Tools/
-└── Web_Pentesting/
+|	└── Linux_Privilege_Escalation
+|	
+├── Web_Pentesting/
+└── Tools/
+	├── Nmap
+	├── Metasploit
+	├── John_the_Ripper
+	└── Burp_Suite
 ```
 
-Each domain folder contains:
-- A `0_<Topic>_MOC.md` file — index of all notes in that domain
+Each main topic folder contains:
+- A `0_<Topic>_MOC.md` file — index of all notes in that main topic
 - Atomic concept notes
 - Subfolders for tools or topics with multiple notes
 

@@ -12,7 +12,7 @@ Tags:
 # OSI(Open Systems Interconnection) Model
 
 
-> [!INFO] OSI
+> [!NOTE] OSI
 > The OSI (Open Systems Interconnection) model is a conceptual model developed by the International Organization for Standardization (ISO) that describes how communications should occur in a computer network. In other words, the OSI model defines a framework for computer network communications. Although this model is theoretical, it is vital to learn and understand as it helps grasp networking concepts on a deeper level. 
 
 

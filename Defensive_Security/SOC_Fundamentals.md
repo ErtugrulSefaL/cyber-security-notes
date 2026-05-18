@@ -73,7 +73,7 @@ What are these 5 Ws?
 - Why
 
 
-> [!Example] Example Alert
+> [!TIP] Example Alert
 > Following are some questions that need to be answered during the triage of an alert. 
 Alert: Malware detected on Host: GEORGE PC
 
