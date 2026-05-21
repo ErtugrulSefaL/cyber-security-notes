@@ -14,7 +14,7 @@ Tags: #MOC #Offensive_Security
 
 ### Core Concepts & Sub-topics
 - [Shell Overview](/Offensive_Security/shell_notes.md)
-- [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privesc_MOC.md)
+- [Linux Privilege Escalation](Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md)
 
 ---
 

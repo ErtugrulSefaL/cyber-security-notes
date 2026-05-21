@@ -227,7 +227,7 @@ We can use the `getcap` tool to list enabled capabilities.
 
 When run as an unprivileged user, `getcap -r /` will generate a huge amount of errors, so it is good practice to redirect the error messages to /dev/null.
 
-For more information and a practical guide, [click here](obsidian://open?vault=NOTES&file=03-RESOURCES%2FCYBER_SECURITY%2Fcontent%2FOffensive_Security%2Flinux_privesc_writeup_capabilities).
+For more information and a practical guide, [click here](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_capabilities.md).
 
 ---
 
