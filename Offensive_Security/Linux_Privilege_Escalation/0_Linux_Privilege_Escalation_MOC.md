@@ -17,6 +17,8 @@ Tags: #MOC #Linux_Privilege_Escalation
 - [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_notes.md)
 	- [Suid Writeup](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_suid.md)
 	- [Capabilities Writeup](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_capabilities.md)
+	- [Cron Jobs](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
+	- [PATH](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_PATH.md)
 
 ---
 

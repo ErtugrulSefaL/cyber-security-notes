@@ -3,7 +3,7 @@
 **Date:** 22-05-2026
 **Resources:**
 **Related Notes:** [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
-Tags: #status/wip 
+Tags: #status/done 
 # TryHackMe — linux_privesc_writeup_cronjobs
 
 **Platform:** [TryHackMe](https://tryhackme.com)
@@ -169,4 +169,4 @@ Session completed.
 ---
 
 ## Related Notes
-- [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
+- [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_notes.md)
