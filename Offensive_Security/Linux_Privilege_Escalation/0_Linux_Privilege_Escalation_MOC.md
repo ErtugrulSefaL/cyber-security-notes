@@ -7,7 +7,7 @@ Tags: #MOC #Linux_Privilege_Escalation
 ---
 # Linux_Privilege_Escalation — Map of Content
 
-> Brief one-line description of this domain.
+> Linux privilege escalation is the process of moving from a low-privileged user account to a higher-level account (usually **root**). This is typically achieved by exploiting outdated kernel versions, misconfigured SUID binaries, exposed sudo rights, or weak file and environmental permissions.
 
 ---
 
@@ -19,9 +19,17 @@ Tags: #MOC #Linux_Privilege_Escalation
 	- [Capabilities Writeup](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_capabilities.md)
 	- [Cron Jobs](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
 	- [PATH](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_PATH.md)
+	- [NFS](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_NFS.md)
 
 ---
 
+## Platform Writeups
+
+| Room / Lab                                                                                              | Platform  | Status        |
+| ------------------------------------------------------------------------------------------------------- | --------- | ------------- |
+| [Capstone Challange](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_Challange.md) | TryHackMe | `status/done` |
+
+---
 ## External References
 
 - [Tryhackme](https://tryhackme.com)

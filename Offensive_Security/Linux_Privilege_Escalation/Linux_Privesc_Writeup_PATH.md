@@ -3,7 +3,7 @@
 **Date:** 30-05-2026
 **Resources:**
 **Related Notes:**
-Tags: #status/wip 
+Tags: #status/done 
 [Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_PATH
 
 ---
@@ -264,7 +264,7 @@ THM-736628929
 ---
 
 ## Related Notes
-- [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
+- [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_notes.md)
 
 ---
 [Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_PATH
