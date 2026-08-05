@@ -1,6 +1,6 @@
 # Cybersecurity Notes
 
-- My **cybersecurity notes and resources** built while studying on TryHackMe and related platforms.
+- My **cybersecurity notes and resources** built while studying on [TryHackMe](https://tryhackme.com) and related platforms.
 - The goal is to create a **clear, structured, and practical knowledge base** that can be useful both for myself and for others learning cybersecurity.
 
 > [!WARNING]
@@ -30,8 +30,10 @@ CYBER_SECURITY/
 ├── Network/
 ├── Offensive_Security/
 |	└── Linux_Privilege_Escalation
-|	
+|
 ├── Web_Pentesting/
+|	└── API_Pentesting
+|
 └── Tools/
 	├── Nmap
 	├── Metasploit
