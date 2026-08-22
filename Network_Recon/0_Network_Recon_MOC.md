@@ -23,6 +23,7 @@ Tags: #MOC #Network_Recon
 - [Nmap Live Host Discovery](/Network_Recon/Nmap_Live_Host_Discovery_01.md)
 - [Nmap Basic Port Scans](/Network_Recon/Nmap_Basic_Port_Scans_02.md)
 - [Nmap Advanced Port Scans](/Network_Recon/Nmap_Advanced_Port_Scans_03.md)
+- [NSE Nmap Scripting Engine](/Network_Recon/NSE_Nmap_Scripting_Engine.md)
 - [Network Recon Challange](/Network_Recon/Net_Sec_Challenge.md)
 
 ### Tools
