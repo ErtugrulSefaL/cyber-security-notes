@@ -41,6 +41,15 @@ Create a new note in the correct domain/subfolder.
 4. Add the new note link to its domain MOC (`0_<Topic>_MOC.md`).
 5. Confirm with the user, then commit.
 
+### room-writeup
+Create a THM/mini-challenge writeup using `Templates/room_writeup_template.md`.
+
+1. Place the file in the domain/subfolder matching the room topic.
+2. Copy the template and fill the Writeup Metadata: Platform, Room, Task, Difficulty, Date (ISO), tags `#room #challenge`, status/wip.
+3. Fill the guided-challenge sections: Connection, Recon & Enumeration, per-Question steps, Key Takeaways.
+4. Link the writeup from the relevant domain MOC.
+5. Confirm with the user, then commit.
+
 ### 3. moc-update
 Add or update an index MOC.
 
