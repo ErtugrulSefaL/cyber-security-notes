@@ -22,7 +22,7 @@ Tags: #MOC #Nmap
 
 ## Related Topics
 
-- [Network Reconnaissance](/Network_Recon/0_Network_Recon_MOC.md)
+- [Network Reconnaissance](/Offensive_Security/Reconnaissance/0_Reconnaissance_MOC.md)
 
 ---
 
