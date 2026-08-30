@@ -1,13 +1,18 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: <% tp.file.folder() %>
-Tags: #MOC #<% tp.file.folder() %>
-
-[← Back to Index](/README.md)
-
----
 # <% tp.file.folder() %> — Map of Content
 
-> Brief one-line description of this domain.
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd><% tp.file.folder() %></dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #<% tp.file.folder() %></dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
+
+> One-line description of this security domain / section.
 
 ---
 
@@ -15,23 +20,26 @@ Tags: #MOC #<% tp.file.folder() %>
 
 ### Core Concepts & Sub-topics
 - [Note Title](note-1.md)
-- [Sub-topic MOC](subtopic/MOC-subtopic.md)
+
 ### Tools
-- [Tool Name](tool-1.md)
+- [Tool Reference](tool-1.md)
+
 ### Techniques
 - [Technique Name](technique-1.md)
+
 ---
+
 ## Platform Writeups
 
-| Room / Lab                                          | Platform  | Status        |
-| --------------------------------------------------- | --------- | ------------- |
-| [Room Name](../Programs/room-name/MOC-room-name.md) | TryHackMe | `status/done` |
+| Room / Lab       | Platform  | Status       |
+| ---------------- | --------- | ----------- |
+| [Room Name](room-link.md) | TryHackMe | status/done |
 
 ---
 
 ## Related Topics
 
-- [Other Topic](../Other_Topic/MOC-Topic.md)
+- [Other MOC or domain](../../Other_Domain/0_Other_Domain_MOC.md)
 
 ---
 
