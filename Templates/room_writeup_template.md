@@ -1,9 +1,3 @@
-**Main Topic:** <% tp.file.folder() %>
-**Sub Topic:** <% tp.file.title %>
-**Date:** <% tp.date.now("DD-MM-YYYY") %>
-**Resources:**
-**Related Notes:**
-Tags: #status/wip 
 <%*
 const parts = tp.file.path(true).split("/").slice(0, -1);
 const links = parts.map((part, i) => {
@@ -13,20 +7,26 @@ const links = parts.map((part, i) => {
 tR += links.join(" > ") + " > " + tp.file.title;
 %>
 
----
+# <% tp.file.title %> — Room Mini-Challenge
 
-# TryHackMe — <% tp.file.title %>
+<details open>
+<summary>📋 Writeup Metadata</summary>
 
-**Platform:** [TryHackMe](https://tryhackme.com)
-**Room:**
-**Task:**
-**Difficulty:**
+<dl>
+<dt><b>Platform</b></dt><dd>[TryHackMe](https://tryhackme.com)</dd>
+<dt><b>Room</b></dt><dd></dd>
+<dt><b>Task</b></dt><dd></dd>
+<dt><b>Difficulty</b></dt><dd></dd>
+<dt><b>Date</b></dt><dd><% tp.date.now("YYYY-MM-DD") %></dd>
+<dt><b>Tags</b></dt><dd>#room #challenge</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+</dl>
 
-> **Note:** <!-- Delete this block if not a guided room. -->
-> This is a guided TryHackMe room, not an independent CTF challenge.
-> The target credentials were provided by the platform.
-> The purpose of this writeup is to document the techniques practiced and
-> reinforce learning, not to demonstrate blind exploitation.
+</details>
+
+> **Note:** This is the guided challenge / practice section at the end of a room.
+> It is meant to reinforce the techniques covered in the room, not to demonstrate
+> blind exploitation. <!-- Delete this block if not a guided practice section. -->
 
 ---
 
@@ -59,7 +59,7 @@ nmap -sC -sV -oN nmap.txt <TARGET_IP>
 
 ---
 
-## Question 1 — 
+## Question 1 —
 
 <!-- Describe what the question asks, what you did to answer it, and why it worked -->
 
@@ -69,7 +69,7 @@ nmap -sC -sV -oN nmap.txt <TARGET_IP>
 
 ---
 
-## Question 2 — 
+## Question 2 —
 
 ```bash
 
@@ -77,7 +77,7 @@ nmap -sC -sV -oN nmap.txt <TARGET_IP>
 
 ---
 
-## Question 3 — 
+## Question 3 —
 
 ```bash
 
@@ -90,13 +90,11 @@ nmap -sC -sV -oN nmap.txt <TARGET_IP>
 <!-- Write these as principles, not just "I did X". What would you tell someone who hasn't done this room? -->
 - 
 - 
-- 
 
 ---
 
 ## Related Notes
 - [Topic Name](../../Domain/note-name.md)
-
 
 ---
 <%*
