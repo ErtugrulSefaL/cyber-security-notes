@@ -1,0 +1,40 @@
+# Cybersecurity Notes Vault — Project Hints
+
+## Project
+- Obsidian vault for cybersecurity notes; publicly shared on GitHub (repo: ErtugrulSefal/cyber-security-notes).
+- Read `@README.md` for the index, architecture, and status-tag reference.
+
+## Architecture (HTB Academy 3-domain model)
+- Flat domains at the repo root:
+  - `General/` (cross-cutting fundamentals: Cryptography, Networking)
+  - `Defensive_Security/`
+  - `Offensive_Security/` (with subfolders: Reconnaissance, Web_Pentesting, etc.)
+  - `Tools/` (cross-cutting, top-level)
+  - `Templates/` (tracked in git)
+- Every domain folder has an index MOC: `0_<Topic>_MOC.md`.
+- Topics with multiple notes are split into subfolders; atomic notes stay in the domain folder.
+
+## Conventions
+- **Metadata**: NO YAML frontmatter. Use an HTML `<details>` + `<dl>/<dt>/<dd>` block directly under the title for all notes and MOCs.
+- **Dates**: ISO format `YYYY-MM-DD` (via Templater).
+- **Naming**: snake_case file/folder names; `0_<Topic>_MOC.md` for MOCs. Watch spelling — no typos like "Peneration", "Knowladge", "Challange".
+- **Language**: All vault content in English.
+- **Tags**: MOCs use `#MOC #<topic>`; notes use `#cybersecurity #note`; status tags `status/wip` | `status/done` | `status/review` | `status/active`.
+
+## Workflow
+- After any batch of edits, run the audit checklist (see below) before committing.
+- Commit after each important change so changes can be rolled back safely.
+
+## Audit checklist (before commit)
+- [ ] No broken relative links (verify with `git grep`/link checks)
+- [ ] Every note/MOC has a `<details>` metadata block
+- [ ] No YAML frontmatter (`---`) at the top of any file
+- [ ] Names/spelling consistent; MOCs follow `0_<Topic>_MOC.md`
+- [ ] Only English content (except proper names)
+
+## Maintenance
+- If the vault structure or conventions change, proactively suggest updating this `.goosehints` file.
+- If a repeated workflow emerges, proactively suggest creating a skill or recipe instead of duplicating prompts.
+
+## Interaction
+- Make changes only with my approval; confirm before destructive or irreversible actions.
