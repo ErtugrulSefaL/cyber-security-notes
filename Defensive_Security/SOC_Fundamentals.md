@@ -1,18 +1,20 @@
----
-Main Topic: Defensive_Security
-Sub Topic: SOC_Fundamentals
-Links: []
-Date: 14-01-2026
-Related Notes:
-  - "[[Related Note 1]]"
-  - "[[Related Note 2]]"
-tags:
-  - topic
-  - research
-  - notes
----
-
 # SOC_Fundamentals
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Defensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-01-14</dd>
+<dt><b>Resources</b></dt><dd>[]</dd>
+<dt><b>Related Notes</b></dt><dd>"Related Note 1" "Related Note 2"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#topic #research #notes</dd>
+</dl>
+
+</details>
+
+---
 
 A **SOC** (**S**ecurity **O**perations **C**enter) is a dedicated facility operated by a specialized security team. This team aims to continuously monitor an organization’s network and resources and identify suspicious activity to prevent damage. This team works 24 hours a day, seven days a week.
 

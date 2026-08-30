@@ -1,18 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Nmap_Live_Host_Discovery_01
-Links:
-  - https://tryhackme.com/room/nmap01
-  - https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml
-  - https://github.com/royhills/arp-scan/wiki/arp-scan-User-Guide
-  - https://nmap.org/
-Date: 25-03-2026
-Related Notes:
-  - "[[Nmap]]"
-Tags:
----
-
 # Nmap_Live_Host_Discovery_01
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-03-25</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/nmap01 https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml https://github.com/royhills/arp-scan/wiki/arp-scan-User-Guide https://nmap.org/</dd>
+<dt><b>Related Notes</b></dt><dd>"Nmap"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 You have learned how , ICMP, , and can detect live hosts by completing this room. Any response from a host is an indication that it is online. Below is a quick summary of the command-line options for that we have covered.
 

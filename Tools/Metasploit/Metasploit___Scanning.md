@@ -1,19 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: Metasploit___Scanning
-Links:
-  - https://tryhackme.com/room/metasploitexploitation?taskNo=2&sharerId=6702abe0f77a70c90629f7db
-Date: 18-11-2025
-Related Notes:
-  - "[[Metasploit___Scanning]]"
-Tags:
-  - Cyber_Security
-  - THM
-  - Tools
-  - Exploitation
----
-
 # Metasploit___Scanning
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2025-11-18</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/metasploitexploitation?taskNo=2&sharerId=6702abe0f77a70c90629f7db</dd>
+<dt><b>Related Notes</b></dt><dd>"Metasploit___Scanning"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #THM #Tools #Exploitation</dd>
+</dl>
+
+</details>
+
+---
 
 ## Port Scanning
 Metasploit has a number of modules to scan open ports on the target system and network. You can list potential port scanning modules available using the `search portscan` command.

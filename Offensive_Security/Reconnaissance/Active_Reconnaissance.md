@@ -1,14 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Active_Reconnaissance
-Links:
-  - https://tryhackme.com/room/activerecon
-Date: 22-03-2026
-Related Notes:
-Tags:
----
-
 # Active_Reconnaissance
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-03-22</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/activerecon</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 Technically speaking, ping falls under the protocol ICMP (Internet Control Message Protocol). ICMP supports many types of queries, but, in particular, we are interested in ping (ICMP echo/type 8) and ping reply (ICMP echo reply/type 0). Getting into ICMP details is not required to use ping.
 

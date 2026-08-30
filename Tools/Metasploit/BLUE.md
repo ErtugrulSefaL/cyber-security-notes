@@ -1,16 +1,20 @@
----
-Main Topic: THM
-Sub Topic: BLUE
-Links:
-  - https://tryhackme.com/room/blue
-Date: 09-01-2026
-Related Notes:
-Tags:
-  - Exploitation
-  - THM
----
-
 # BLUE
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-09</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/blue</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Exploitation #THM</dd>
+</dl>
+
+</details>
+
+---
 
 Target IP Adress : 10.81.148.68
 

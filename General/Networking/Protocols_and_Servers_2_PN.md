@@ -1,13 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Protocols_and_Servers_2_PN
-Links:
-Date: 03-04-2026
-Related Notes:
-Tags:
----
-
 # Protocols_and_Servers_2_PN
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Networking</dd>
+<dt><b>Date</b></dt><dd>2026-04-03</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 # Cybersecurity Notes
 
 ---

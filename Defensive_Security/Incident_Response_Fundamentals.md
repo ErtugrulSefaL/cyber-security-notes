@@ -1,17 +1,20 @@
----
-Main Topic: Defensive_Security
-Sub Topic: Incident_Response_Fundamentals
-Links:
-  - https://tryhackme.com/room/incidentresponsefundamentals
-  - https://www.ibm.com/think/topics/incident-response
-Date: 14-01-2026
-Related Notes: 
-tags:
-  - Cyber_Security
-  - THM
----
-
 # Incident_Response_Fundamentals
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Defensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-01-14</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/incidentresponsefundamentals https://www.ibm.com/think/topics/incident-response</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #THM</dd>
+</dl>
+
+</details>
+
+---
 
 > [!NOTE] Incident Response
 > Incident response (sometimes called cybersecurity incident response) refers to an organization’s processes and technologies for detecting and responding to cyberthreats, security breaches or cyberattacks. A formal incident response plan enables cybersecurity teams to limit or prevent damage.

@@ -1,21 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: John_the_Ripper___Single_Crack_Mode
-Links:
-  - https://tryhackme.com/room/johntheripperbasics
-Date: 11-11-2025
-Related Notes:
-  - "[[Hashing_Basics]]"
-  - "[[John_the_Ripper___Basics]]"
-  - "[[John_the_Ripper___Custom_Rules]]"
-Tags:
-  - Cyber_Security
-  - THM
-  - Cryptography
-  - Tools
----
-
 # John_the_Ripper___Single_Crack_Mode
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2025-11-11</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/johntheripperbasics</dd>
+<dt><b>Related Notes</b></dt><dd>"Hashing_Basics" "John_the_Ripper___Basics" "John_the_Ripper___Custom_Rules"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #THM #Cryptography #Tools</dd>
+</dl>
+
+</details>
+
+---
 
 ## Using Single Crack Mode
 In this mode, John uses only the information provided in the username to try and work out possible passwords heuristically by slightly changing the letters and numbers contained within the username.

@@ -1,15 +1,20 @@
----
-Main Topic: Defensive_Security
-Sub Topic: Digital_Forensics_Fundamentals
-Links:
-  - https://tryhackme.com/room/digitalforensicsfundamentals
-Date: 14-01-2026
-Related Notes: 
-tags:
-  - Cyber_Security
----
-
 # Digital_Forensics_Fundamentals
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Defensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-01-14</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/digitalforensicsfundamentals</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security</dd>
+</dl>
+
+</details>
+
+---
 
 Forensics is the application of methods and procedures to investigate and solve crimes. The branch of forensics that investigates cyber crimes is known as **digital forensics**. **Cyber crime** is any criminal activity conducted on or using a digital device. Several tools and techniques are used to investigate digital devices thoroughly after any crime to find and analyze evidence for necessary legal action.
 

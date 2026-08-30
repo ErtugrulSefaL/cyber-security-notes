@@ -1,18 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: Metasploit___Introduction
-Links:
-  - https://tryhackme.com/room/metasploitintro
-Date: 17-11-2025
-Related Notes:
-Tags:
-  - Cyber_Security
-  - THM
-  - Tools
-  - Exploitation
----
-
 # Metasploit___Introduction
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2025-11-17</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/metasploitintro</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #THM #Tools #Exploitation</dd>
+</dl>
+
+</details>
+
+---
 
 > [!INFO] Metasploit
 > Metasploit is the most widely used exploitation framework. Metasploit is a powerful tool that can support all phases of a penetration testing engagement, from information gathering to post-exploitation.

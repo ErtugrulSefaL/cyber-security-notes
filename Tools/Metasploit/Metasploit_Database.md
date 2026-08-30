@@ -1,21 +1,20 @@
----
-Main Topic: Exploitation_Basics
-Sub Topic: Metasploit_Database
-Links:
-  - https://tryhackme.com/room/metasploitexploitation?taskNo=3&sharerId=6702abe0f77a70c90629f7db
-Date: 07-01-2026
-Related Notes:
-  - "[[Metasploit___Introduction]]"
-Tags:
-  - Cyber_Security
-  - Cryptography
-  - Basics
-  - Exploitation
-  - THM
-  - Tools
----
-
 # Metasploit_Database
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-07</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/metasploitexploitation?taskNo=3&sharerId=6702abe0f77a70c90629f7db</dd>
+<dt><b>Related Notes</b></dt><dd>"Metasploit___Introduction"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Cryptography #Basics #Exploitation #THM #Tools</dd>
+</dl>
+
+</details>
+
+---
 
 An actual penetration testing engagement will likely have several targets.
 Metasploit has a database function to simplify project management and avoid possible confusion when setting up parameter values.

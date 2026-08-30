@@ -1,14 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Net_Sec_Challenge
-Links:
-  - https://tryhackme.com/room/netsecchallenge
-Date: 03-04-2026
-Related Notes:
-Tags:
----
-
 # Net_Sec_Challenge
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-04-03</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/netsecchallenge</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 Target IP : 10.113.171.237
 My IP : 192.168.173.115

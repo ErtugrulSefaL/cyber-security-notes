@@ -1,18 +1,20 @@
----
-Main Topic: Tools
-Sub Topic: SQLMap___The_Basics
-Links:
-  - https://tryhackme.com/room/sqlmapthebasics
-Date: 13-01-2026
-Related Notes: 
-tags:
-  - Cyber_Security
-  - Basics
-  - Tools
-  - THM
----
-
 # SQLMap___The_Basics
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-13</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/sqlmapthebasics</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Basics #Tools #THM</dd>
+</dl>
+
+</details>
+
+---
 
 > [!INFO] SQLMap
 > SQLMap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.

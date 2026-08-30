@@ -1,17 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: Hashing_Basics
-Links:
-  - https://tryhackme.com/room/hashingbasics
-Date: 05-11-2025
-Related Notes:
-Tags:
-  - Cyber_Security
-  - Cryptography
-  - Basics
-  - THM
----
+# Hashing_Basics
 
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Cryptography</dd>
+<dt><b>Date</b></dt><dd>2025-11-05</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/hashingbasics</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Cryptography #Basics #THM</dd>
+</dl>
+
+</details>
+
+---
 ## Hashing_Basics
 
 

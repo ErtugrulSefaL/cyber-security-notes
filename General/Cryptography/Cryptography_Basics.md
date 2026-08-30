@@ -1,17 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: Cryptography_Basics
-Links:
-  - https://tryhackme.com/room/cryptographybasics
-Date: 04-11-2025
-Related Notes:
-Tags:
-  - THM
-  - Cyber_Security
-  - Cryptography
-  - Basics
----
+# Cryptography_Basics
 
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Cryptography</dd>
+<dt><b>Date</b></dt><dd>2025-11-04</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/cryptographybasics</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#THM #Cyber_Security #Cryptography #Basics</dd>
+</dl>
+
+</details>
+
+---
 ## Cryptography_Basics
 
 The two main categories of encryption are **symmetric** and **asymmetric**.

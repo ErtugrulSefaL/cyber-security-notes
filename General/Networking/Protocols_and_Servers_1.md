@@ -1,14 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Protocols_and_Servers_1
-Links:
-  - https://tryhackme.com/room/protocolsandservers
-Date: 01-04-2026
-Related Notes:
-Tags:
----
-
 # Protocols_and_Servers_1
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Networking</dd>
+<dt><b>Date</b></dt><dd>2026-04-01</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/protocolsandservers</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 ```bash
 telnet 10.114.134.244 80  

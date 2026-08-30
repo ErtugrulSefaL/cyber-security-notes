@@ -1,14 +1,20 @@
----
-Main Topic: Burp_Suite
-Sub Topic: Burp_Suite___The_Basics
-Links:
-  - https://tryhackme.com/room/burpsuitebasics
-Date: 17-03-2026
-Related Notes:
-Tags:
----
-
 # Burp_Suite___The_Basics
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-03-17</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/burpsuitebasics</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 In essence, Burp Suite is a **Java-based** framework designed to serve as a comprehensive solution for conducting web application penetration testing. It has become the industry standard tool for hands-on security assessments of web and mobile applications, including those that rely on **a**pplication **p**rogramming **i**nterface**s** (APIs).
 

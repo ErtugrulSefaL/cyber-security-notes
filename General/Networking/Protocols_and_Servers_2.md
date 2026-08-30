@@ -1,14 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Protocols_and_Servers_2
-Links:
-  - https://tryhackme.com/room/protocolsandservers2
-Date: 02-04-2026
-Related Notes:
-Tags:
----
-
 # Protocols_and_Servers_2
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Networking</dd>
+<dt><b>Date</b></dt><dd>2026-04-02</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/protocolsandservers2</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 This room covered various protocols, their usage, and how they work under the hood. Three common attacks are:
 

@@ -1,20 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: Identifying_Hashes
-Links:
-  - https://tryhackme.com/room/johntheripperbasics
-Date: 11-11-2025
-Related Notes:
-  - "[[John_the_Ripper___Basics]]"
-  - "[[Hashing_Basics]]"
-Tags:
-  - Cryptography
-  - Cyber_Security
-  - THM
-  - Tools
----
-
 # Identifying_Hashes
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Cryptography</dd>
+<dt><b>Date</b></dt><dd>2025-11-11</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/johntheripperbasics</dd>
+<dt><b>Related Notes</b></dt><dd>"John_the_Ripper___Basics" "Hashing_Basics"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cryptography #Cyber_Security #THM #Tools</dd>
+</dl>
+
+</details>
+
+---
 
 ## Identifying Hashes
 

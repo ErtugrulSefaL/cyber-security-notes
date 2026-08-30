@@ -1,17 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Shodan
-Links:
-  - https://tryhackme.com/room/shodan
-  -  
-  - https://skerritt.blog/shodan/
-Date: 21-03-2026
-Related Notes:
-  - "[[Passive_Reconnaissance]]"
-Tags:
----
-
 # Shodan
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-03-21</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/shodan https://skerritt.blog/shodan/</dd>
+<dt><b>Related Notes</b></dt><dd>"Passive_Reconnaissance"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 ## Banner
 ```json

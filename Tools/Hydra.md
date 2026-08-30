@@ -1,20 +1,20 @@
----
-Main Topic: Tools
-Sub Topic: Hydra
-Links:
-  - https://example.com
-  - https://example2.com
-Date: 11-01-2026
-Related Notes:
-  - "[[Related Note 1]]"
-  - "[[Related Note 2]]"
-Tags:
-  - topic
-  - research
-  - notes
----
-
 # Hydra
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-11</dd>
+<dt><b>Resources</b></dt><dd>https://example.com https://example2.com</dd>
+<dt><b>Related Notes</b></dt><dd>"Related Note 1" "Related Note 2"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#topic #research #notes</dd>
+</dl>
+
+</details>
+
+---
 
 
 > [!INFO] What's Hydra?

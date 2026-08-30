@@ -1,14 +1,20 @@
----
-Main Topic: Tools
-Sub Topic: OWASP_ZAP_Introduction
-Links:
-  - https://tryhackme.com/room/learnowaspzap
-Date: 25-03-2026
-Related Notes:
-Tags:
----
-
 # OWASP_ZAP_Introduction
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-03-25</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/learnowaspzap</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 What are the benefits to OWASP ZAP?
 

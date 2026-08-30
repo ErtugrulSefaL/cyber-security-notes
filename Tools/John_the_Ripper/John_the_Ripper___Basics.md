@@ -1,18 +1,20 @@
----
-Main Topic: Cryptography
-Sub Topic: John_the_Ripper___Basics
-Links:
-  - https://tryhackme.com/room/johntheripperbasics
-Date: 05-11-2025
-Related Notes:
-Tags:
-  - Cyber_Security
-  - Cryptography
-  - Basics
-  - THM
-  - Tools
----
+# John_the_Ripper___Basics
 
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2025-11-05</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/johntheripperbasics</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Cryptography #Basics #THM #Tools</dd>
+</dl>
+
+</details>
+
+---
 ## John_the_Ripper___Basics
 
 > [!INFO] John the Ripper

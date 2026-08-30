@@ -1,19 +1,20 @@
----
-Main Topic: Tools
-Sub Topic: Gobuster___Basics
-Links:
-  - https://github.com/OJ/gobuster
-Date: 13-01-2026
-Related Notes: 
-tags:
-  - Cyber_Security
-  - Exploitation
-  - Basics
-  - Tools
-  - THM
----
-
 # Gobuster___Basics
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-13</dd>
+<dt><b>Resources</b></dt><dd>https://github.com/OJ/gobuster</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Exploitation #Basics #Tools #THM</dd>
+</dl>
+
+</details>
+
+---
 
 
 > [!INFO] Gobuster

@@ -1,17 +1,20 @@
----
-Main Topic: Network
-Sub Topic: Nmap
-Links:
-  - https://tryhackme.com/room/nmap
-Date: 03-11-2025
-Related Notes:
-Tags:
-  - Cyber_Security
-  - Network
-  - Tools
-  - THM
----
+# Nmap
 
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2025-11-03</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/nmap</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#Cyber_Security #Network #Tools #THM</dd>
+</dl>
+
+</details>
+
+---
 ## Nmap
 
 >[!INFO] Nmap

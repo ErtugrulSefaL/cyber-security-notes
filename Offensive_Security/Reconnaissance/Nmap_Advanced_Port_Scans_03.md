@@ -1,13 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Nmap_Advanced_Port_Scans_03
-Links:
-Date: 28-03-2026
-Related Notes:
-Tags:
----
-
 # Nmap_Advanced_Port_Scans_03
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-03-28</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 | Port Scan Type                 | Example Command                                           |
 | ------------------------------ | --------------------------------------------------------- |
 | TCP Null Scan                  | `sudo nmap -sN MACHINE_IP`                            |

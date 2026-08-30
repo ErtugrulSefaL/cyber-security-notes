@@ -1,14 +1,20 @@
----
-Main Topic: Burp_Suite
-Sub Topic: Burp_Suite___Repeater
-Links:
-  - https://tryhackme.com/room/burpsuiterepeater
-Date: 17-03-2026
-Related Notes:
-Tags:
----
-
 # Burp_Suite___Repeater
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-03-17</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/burpsuiterepeater</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 FlagAuthorised: True
 THM{Yzg2MWI2ZDhlYzdlNGFiZTUzZTIzMzVi}

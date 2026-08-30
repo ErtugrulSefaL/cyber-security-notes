@@ -1,13 +1,20 @@
----
-Main Topic: Network
-Sub Topic: Network_Basics
-Links:
-Date: 09-01-2026
-Related Notes:
-Tags:
----
-
 # Network_Basics
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Networking</dd>
+<dt><b>Date</b></dt><dd>2026-01-09</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 # OSI(Open Systems Interconnection) Model
 

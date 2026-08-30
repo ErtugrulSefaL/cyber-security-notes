@@ -1,15 +1,20 @@
----
-Main Topic: Network_Security
-Sub Topic: Passive_Reconnaissance
-Links:
-  - https://tryhackme.com/room/passiverecon
-  - https://www.shodan.io
-Date: 21-03-2026
-Related Notes:
-Tags:
----
-
 # Passive_Reconnaissance
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-03-21</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/passiverecon https://www.shodan.io</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 ## Command-line tools:
 

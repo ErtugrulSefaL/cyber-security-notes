@@ -1,23 +1,20 @@
----
-Main Topic: Exploitation_Basics
-Sub Topic: Metasploit___Msfvenom
-Links:
-  - https://tryhackme.com/room/metasploitexploitation?taskNo=6&sharerId=6702abe0f77a70c90629f7db
-Date: 07-01-2026
-Related Notes:
-  - "[[Metasploit___Scanning]]"
-  - "[[Metasploit___Exploit]]"
-  - "[[Metasploit___Introduction]]"
-Tags:
-  - topic
-  - research
-  - notes
-  - Exploitation
-  - Tools
-  - THM
----
-
 # Metasploit___Msfvenom
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Date</b></dt><dd>2026-01-07</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/metasploitexploitation?taskNo=6&sharerId=6702abe0f77a70c90629f7db</dd>
+<dt><b>Related Notes</b></dt><dd>"Metasploit___Scanning" "Metasploit___Exploit" "Metasploit___Introduction"</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>#topic #research #notes #Exploitation #Tools #THM</dd>
+</dl>
+
+</details>
+
+---
 
 
 > [!INFO] Msfvenom
