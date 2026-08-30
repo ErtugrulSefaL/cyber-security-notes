@@ -28,7 +28,7 @@
 - [Nmap Basic Port Scans](/Offensive_Security/Reconnaissance/Nmap_Basic_Port_Scans_02.md)
 - [Nmap Advanced Port Scans](/Offensive_Security/Reconnaissance/Nmap_Advanced_Port_Scans_03.md)
 - [Nmap Post Port Scans](/Offensive_Security/Reconnaissance/Nmap_Post_Port_Scans_04.md)
-- [NSE Nmap Scripting Engine](/Offensive_Security/Reconnaissance/NSE_Nmap_Scripting_Engine.md)
+- [NSE Nmap Scripting Engine](/Tools/Nmap/NSE_Nmap_Scripting_Engine.md)
 
 ### Challenges
 - [Network Security Challenge](/Offensive_Security/Reconnaissance/Net_Sec_Challenge.md)
