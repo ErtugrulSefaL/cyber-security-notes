@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Metasploit
-Tags: #MOC #Metasploit
-
-[← Back to Index](/Tools/0_Tools_MOC.md)
-
----
 # Metasploit — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Metasploit</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Metasploit is a widely-used, open-source penetration testing and ethical hacking framework.
 

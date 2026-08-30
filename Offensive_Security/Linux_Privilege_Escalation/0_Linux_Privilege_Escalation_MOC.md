@@ -1,11 +1,16 @@
-**Main Topic**: [Offensive Security](/Offensive_Security/0_Offensive_Security_MOC.md)
-**Sub Topic**: Linux_Privilege_Escalation
-Tags: #MOC #Linux_Privilege_Escalation
-
-[← Back to Index](/Offensive_Security/0_Offensive_Security_MOC.md)
-
----
 # Linux_Privilege_Escalation — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Linux_Privilege_Escalation</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Linux_Privilege_Escalation</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Linux privilege escalation is the process of moving from a low-privileged user account to a higher-level account (usually **root**). This is typically achieved by exploiting outdated kernel versions, misconfigured SUID binaries, exposed sudo rights, or weak file and environmental permissions.
 

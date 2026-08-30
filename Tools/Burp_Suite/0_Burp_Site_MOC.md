@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Burp_Suite
-Tags: #MOC #Burp_Suite
-
-[← Back to Index](/Tools/0_Tools_MOC.md)
-
----
 # Burp_Suite — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Burp_Suite</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Burp Suite is the industry-standard software platform used for web application security testing and ethical hacking.
 

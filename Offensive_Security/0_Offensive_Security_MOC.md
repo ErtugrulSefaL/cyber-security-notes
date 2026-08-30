@@ -1,13 +1,19 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Offensive_Security
-Tags: #MOC #Offensive_Security
-
-[← Back to Index](/README.md)
-
----
 # Offensive_Security — Map of Content
 
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Offensive_Security</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
+
 > Offensive methodology, penetration testing phases, and attack chaining
+
 ---
 
 ## Notes

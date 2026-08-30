@@ -1,15 +1,21 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Cryptography
-Tags: #MOC #Cryptography 
-
-[← Back to Index](/README.md)
-
----
 # Cryptography — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Cryptography</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Cryptography</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Hashing, encoding, symmetric/asymmetric encryption, and password cracking tools
 
 ---
+
 ## Notes
 
 ### Core Concepts & Sub-topics

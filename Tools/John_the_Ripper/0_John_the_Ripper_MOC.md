@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: John_the_Ripper
-Tags: #MOC #John_the_Ripper
-
-[← Back to Index](/Tools/0_Tools_MOC.md)
-
----
 # John_the_Ripper — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #John_the_Ripper</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > John the Ripper is a popular, free, and open-source password cracking tool.
 

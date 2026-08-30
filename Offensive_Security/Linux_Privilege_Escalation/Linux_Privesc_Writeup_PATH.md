@@ -1,14 +1,20 @@
-**Main Topic:** Linux_Privilege_Escalation
-**Sub Topic:** Linux_Privesc_Writeup_PATH
-**Date:** 30-05-2026
-**Resources:**
-**Related Notes:**
-Tags: #status/done 
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_PATH
+# TryHackMe — Linux_Privesc_Writeup_PATH
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Linux_Privilege_Escalation</dd>
+<dt><b>Date</b></dt><dd>2026-05-30</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
 
 ---
-
-# TryHackMe — Linux_Privesc_Writeup_PATH
 
 **Platform:** [TryHackMe](https://tryhackme.com)
 **Room:** [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc)
@@ -265,6 +271,3 @@ THM-736628929
 
 ## Related Notes
 - [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_notes.md)
-
----
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_PATH

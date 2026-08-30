@@ -1,34 +1,20 @@
-**Main Topic:** Linux_Privilege_Escalation
-**Sub Topic:** linux_privesc_writeup_cronjobs
-**Date:** 22-05-2026
-**Resources:**
-**Related Notes:** [Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)
-Tags: #status/done 
-# TryHackMe — linux_privesc_writeup_cronjobs
+# Shell stabilisation (if needed)
 
-**Platform:** [TryHackMe](https://tryhackme.com)
-**Room:** [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc)
-**Task:** Task 9 - Cron Jobs
-**Difficulty:**
+<details open>
+<summary>📋 Note Metadata</summary>
 
-> This is a guided TryHackMe room, not an independent CTF challenge.
-> The target credentials were provided by the platform.
-> The purpose of this writeup is to document the techniques practiced and
-> reinforce learning, not to demonstrate blind exploitation.
+<dl>
+<dt><b>Main Topic</b></dt><dd>Linux_Privilege_Escalation</dd>
+<dt><b>Date</b></dt><dd>2026-05-22</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd>[Linux Privilege Escalation](/Offensive_Security/Linux_Privilege_Escalation/linux_privesc_writeup_cronjobs.md)</dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
 
-> **Username: karen**
-> **Password: Password1**
+</details>
 
 ---
-
-## Connection
-
-```bash
-$ ssh karen@10.114.169.150
-```
-
-```bash
-# Shell stabilisation (if needed)
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 export TERM=xterm
 stty rows 57 columns 235

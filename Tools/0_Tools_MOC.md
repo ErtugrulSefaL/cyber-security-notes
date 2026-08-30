@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Tools
-Tags: #MOC #Tools
-
-[← Back to Index](/README.md)
-
----
 # Tools — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Tools</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Tool references, usage guides, and command cheatsheets
 

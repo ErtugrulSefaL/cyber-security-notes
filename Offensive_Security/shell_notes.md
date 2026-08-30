@@ -1,5 +1,20 @@
 # Shell Notes — What the Shell (TryHackMe)
 
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd></dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd>status/wip</dd>
+</dl>
+
+</details>
+
+---
 ---
 
 ## What is a Shell?

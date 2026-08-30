@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Penetration_Testing_Foundations
-Tags: #MOC #Penetration_Testing_Foundations
-
-[← Back to Index](/README.md)
-
----
 # Penetration_Testing_Foundations — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Penetration_Testing_Foundations</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Penetration_Testing_Foundations</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Brief one-line description of this domain.
 

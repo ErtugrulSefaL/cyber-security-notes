@@ -1,15 +1,21 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Defensive_Security
-Tags: #MOC #Defensive_Security
-
-[← Back to Index](/README.md)
-
----
 # Defensive_Security — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Defensive_Security</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Defensive_Security</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > SOC operations, digital forensics, incident response, and threat detection
 
 ---
+
 ## Notes
 
 ### Core Concepts & Sub-topics

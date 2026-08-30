@@ -1,11 +1,16 @@
-**Main Topic**: Cyber_Security
-**Sub Topic**: Nmap
-Tags: #MOC #Nmap
-
-[← Back to Index](/Tools/0_Tools_MOC.md)
-
----
 # Nmap — Map of Content
+
+<details open>
+<summary>📋 MOC Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Tools</dd>
+<dt><b>Type</b></dt><dd>Map of Content (MOC)</dd>
+<dt><b>Tags</b></dt><dd>#MOC #Nmap</dd>
+<dt><b>Status</b></dt><dd>status/active</dd>
+</dl>
+
+</details>
 
 > Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing.
 

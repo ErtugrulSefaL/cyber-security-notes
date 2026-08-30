@@ -1,15 +1,20 @@
-**Main Topic:** Penetration_Testing_Foundations
-**Sub Topic:** Penetration_Testing_Frameworks
-**Date:** 15-06-2026
-**Resources:**
-**Related Notes:**
-Tags: #status/done  
-
----
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Penetration_Testing_Foundations](/Offensive_Security/Penetration_Testing_Foundations/0_Penetration_Testing_Foundations_MOC.md) > Penetration_Testing_Frameworks
-
----
 # Penetration_Testing_Frameworks
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Penetration_Testing_Foundations</dd>
+<dt><b>Date</b></dt><dd>2026-06-15</dd>
+<dt><b>Resources</b></dt><dd></dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 ---
 ## Cyber Kill Chain (Lockheed Martin) — 7 Steps

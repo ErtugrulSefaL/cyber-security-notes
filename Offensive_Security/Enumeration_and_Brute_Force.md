@@ -1,15 +1,20 @@
-**Main Topic:** Offensive_Security
-**Sub Topic:** Enumeration_and_Brute_Force
-**Date:** 20-07-2026
-**Resources:** https://tryhackme.com/room/enumerationbruteforce
-**Related Notes:**
-Tags: #status/wip  
-
----
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > Enumeration_and_Brute_Force
-
----
 # Enumeration_and_Brute_Force
+
+<details open>
+<summary>📋 Note Metadata</summary>
+
+<dl>
+<dt><b>Main Topic</b></dt><dd>Offensive_Security</dd>
+<dt><b>Date</b></dt><dd>2026-07-20</dd>
+<dt><b>Resources</b></dt><dd>https://tryhackme.com/room/enumerationbruteforce</dd>
+<dt><b>Related Notes</b></dt><dd></dd>
+<dt><b>Status</b></dt><dd>status/wip</dd>
+<dt><b>Tags</b></dt><dd></dd>
+</dl>
+
+</details>
+
+---
 
 ### What is Enumeration?
 
