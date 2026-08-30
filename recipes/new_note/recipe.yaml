@@ -1,0 +1,38 @@
+version: "1.0.0"
+title: "New Cyber Security Note"
+description: "Create a new vault note following the notes-admin standards and link it to the domain MOC."
+parameters:
+  - key: topic
+    input_type: string
+    requirement: required
+    description: "Note topic / title in snake_case (e.g. sql_injection_basics)"
+  - key: domain
+    input_type: select
+    requirement: required
+    description: "Domain folder for the note"
+    options:
+      - General
+      - General/Cryptography
+      - General/Networking
+      - Defensive_Security
+      - Offensive_Security
+      - Offensive_Security/Reconnaissance
+      - Offensive_Security/Web_Pentesting
+      - Tools
+  - key: main_topic
+    input_type: string
+    requirement: optional
+    default: ""
+    description: "Override the Main Topic shown in the metadata block (defaults to the domain folder)"
+instructions: |
+  Use the `notes-admin` skill (`new-note` task) to create a new note.
+
+  1. Resolve the target directory from the selected `domain`. Map it to the actual folder path in the vault (e.g. `Offensive_Security/Reconnaissance`).
+  2. Use `Templates/note_template.md` as the base. Set the title to `{{ topic }}` (snake_case).
+  3. Fill the `<details>` metadata block:
+     - Main Topic = `{{ main_topic | default(domain, true) }}`
+     - Date = today (ISO `YYYY-MM-DD`)
+     - Status = `status/wip`
+     - Tags = `#cybersecurity #note`
+  4. Add a relative link to the new note in the domain MOC (`0_<Topic>_MOC.md`).
+  5. Show the user the result. Only after approval, stage and commit the changes.

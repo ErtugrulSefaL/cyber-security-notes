@@ -1,0 +1,42 @@
+version: "1.0.0"
+title: "New TryHackMe Room Writeup"
+description: "Create a guided mini-challenge writeup following the notes-admin standards and link it to the domain MOC."
+parameters:
+  - key: room
+    input_type: string
+    requirement: required
+    description: "Room name in snake_case (e.g. picklerick)"
+  - key: task_name
+    input_type: string
+    requirement: required
+    description: "Task number / name for this writeup"
+  - key: difficulty
+    input_type: select
+    requirement: required
+    description: "Room difficulty"
+    options:
+      - Easy
+      - Medium
+      - Hard
+      - Insane
+  - key: topic
+    input_type: string
+    requirement: optional
+    default: ""
+    description: "Topic for placement (used to pick domain/subfolder)"
+instructions: |
+  Use the `notes-admin` skill (`room-writeup` task) to create a new writeup.
+
+  1. Determine the domain/subfolder matching the room topic (or `{{ topic }}`).
+  2. Use `Templates/room_writeup_template.md` as the base. Set the title to `{{ room }}`.
+  3. Fill the Writeup Metadata `<details>` block:
+     - Platform = TryHackMe
+     - Room = `{{ room }}`
+     - Task = `{{ task_name }}`
+     - Difficulty = `{{ difficulty }}`
+     - Date = today (ISO `YYYY-MM-DD`)
+     - Tags = `#room #challenge`
+     - Status = `status/wip`
+  4. Fill the guided-challenge sections: Connection, Recon & Enumeration, per-Question steps, Key Takeaways.
+  5. Add a relative link to the writeup in the relevant domain MOC.
+  6. Show the user the result. Only after approval, stage and commit the changes.
