@@ -1,13 +1,13 @@
 **Main Topic**: Cyber_Security
-**Sub Topic**: Vulnerability_Knowladge
-Tags: #MOC #Vulnerability_Knowladge
+**Sub Topic**: Penetration_Testing_Foundations
+Tags: #MOC #Penetration_Testing_Foundations
 
 [← Back to Index](/README.md)
 
 ---
-# Vulnerability_Knowladge — Map of Content
+# Penetration_Testing_Foundations — Map of Content
 
-> Vulnerability databases are centralised repositories that collect, organise, and publish information about known security vulnerabilities. Instead of every security team discovering the same issues repeatedly, vulnerability databases provide a shared source of truth for the cyber security community.
+> Brief one-line description of this domain.
 
 ---
 

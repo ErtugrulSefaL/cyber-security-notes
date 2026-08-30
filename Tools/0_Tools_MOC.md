@@ -21,7 +21,7 @@ Tags: #MOC #Tools
 - [Hydra](/Tools/Hydra.md)
 - [Gobuster](Tools/Gobuster___Basics)
 - [SQLMap](/Tools/SQLMap___The_Basics.md)
-- [OWASP Zap](/Tools/OWASP_ZAP_Introdiction.md)
+- [OWASP Zap](/Tools/OWASP_ZAP_Introduction.md)
 
 ---
 ## Related Topics

@@ -1,4 +1,4 @@
-**Main Topic:** Peneration_Testing_Foundations
+**Main Topic:** Penetration_Testing_Foundations
 **Sub Topic:** Penetration_Testing_Frameworks
 **Date:** 15-06-2026
 **Resources:**
@@ -6,7 +6,7 @@
 Tags: #status/done  
 
 ---
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Peneration_Testing_Foundations](/Offensive_Security/Peneration_Testing_Foundations/0_Peneration_Testing_Foundations_MOC.md) > Penetration_Testing_Frameworks
+[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Penetration_Testing_Foundations](/Offensive_Security/Penetration_Testing_Foundations/0_Penetration_Testing_Foundations_MOC.md) > Penetration_Testing_Frameworks
 
 ---
 # Penetration_Testing_Frameworks
@@ -161,6 +161,6 @@ Threat Intelligence-Based Ethical Red Teaming framework from the European Centra
 | WASC Threat Classification | Web applications | Historical taxonomy | Superseded by | Legacy reference only |
 
 ---
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Peneration_Testing_Foundations](/Offensive_Security/Peneration_Testing_Foundations/0_Peneration_Testing_Foundations_MOC.md) > Penetration_Testing_Frameworks
+[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Penetration_Testing_Foundations](/Offensive_Security/Penetration_Testing_Foundations/0_Penetration_Testing_Foundations_MOC.md) > Penetration_Testing_Frameworks
 
 ---

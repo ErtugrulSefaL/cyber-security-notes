@@ -25,7 +25,7 @@ Tags: #MOC #Network_Recon
 	- [Nmap Basic Port Scans](/Network_Recon/Nmap_Basic_Port_Scans_02.md)
 	- [Nmap Advanced Port Scans](/Network_Recon/Nmap_Advanced_Port_Scans_03.md)
 	- [NSE Nmap Scripting Engine](/Network_Recon/NSE_Nmap_Scripting_Engine.md)
-- [Network Recon Challange](/Network_Recon/Net_Sec_Challenge.md)
+- [Network Recon Challenge](/Network_Recon/Net_Sec_Challenge.md)
 
 ### Tools
 - [Nmap](/Tools/Nmap/0_Nmap_MOC.md)

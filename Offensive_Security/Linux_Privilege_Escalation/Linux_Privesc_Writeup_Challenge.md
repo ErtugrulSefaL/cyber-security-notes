@@ -1,18 +1,18 @@
 **Main Topic:** Linux_Privilege_Escalation
-**Sub Topic:** Linux_Privesc_Writeup_Challange
+**Sub Topic:** Linux_Privesc_Writeup_Challenge
 **Date:** 09-06-2026
 **Resources:**
 **Related Notes:**
 Tags: #status/done
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_Challange
+[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_Challenge
 
 ---
 
-# TryHackMe — Linux_Privesc_Writeup_Challange
+# TryHackMe — Linux_Privesc_Writeup_Challenge
 
 **Platform:** [TryHackMe](https://tryhackme.com)
 **Room:** [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc)
-**Task:** [TASK 12 - Capstone Challange](https://tryhackme.com/room/linprivesc?taskNo=12&sharerId=6702abe0f77a70c90629f7db)
+**Task:** [TASK 12 - Capstone Challenge](https://tryhackme.com/room/linprivesc?taskNo=12&sharerId=6702abe0f77a70c90629f7db)
 **Difficulty:**
 
 
@@ -263,4 +263,4 @@ cat /home/rootflag/flag2.txt
 
 
 ---
-[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_Challange
+[Offensive_Security](/Offensive_Security/0_Offensive_Security_MOC.md) > [Linux_Privilege_Escalation](/Offensive_Security/Linux_Privilege_Escalation/0_Linux_Privilege_Escalation_MOC.md) > Linux_Privesc_Writeup_Challenge

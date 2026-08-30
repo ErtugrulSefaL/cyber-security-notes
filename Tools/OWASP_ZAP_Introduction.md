@@ -1,6 +1,6 @@
 ---
 Main Topic: Tools
-Sub Topic: OWASP_ZAP_Introdiction
+Sub Topic: OWASP_ZAP_Introduction
 Links:
   - https://tryhackme.com/room/learnowaspzap
 Date: 25-03-2026
@@ -8,7 +8,7 @@ Related Notes:
 Tags:
 ---
 
-# OWASP_ZAP_Introdiction
+# OWASP_ZAP_Introduction
 
 What are the benefits to OWASP ZAP?
 

@@ -27,7 +27,7 @@ Tags: #MOC #Linux_Privilege_Escalation
 
 | Room / Lab                                                                                              | Platform  | Status        |
 | ------------------------------------------------------------------------------------------------------- | --------- | ------------- |
-| [Capstone Challange](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_Challange.md) | TryHackMe | `status/done` |
+| [Capstone Challenge](/Offensive_Security/Linux_Privilege_Escalation/Linux_Privesc_Writeup_Challenge.md) | TryHackMe | `status/done` |
 
 ---
 ## External References
