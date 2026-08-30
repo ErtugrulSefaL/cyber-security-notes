@@ -12,16 +12,15 @@
 
 The notes are organized following the HTB Academy 3-domain model: **Offensive Security**, **Defensive Security**, and **General** fundamentals. Tools and templates live as cross-cutting top-level folders.
 
-| Topic | Description |
-| --- | --- |
-| [General — Cryptography](/General/Cryptography/0_Cryptography_MOC.md) | Hashing, encoding, encryption, cracking |
-| [General — Networking](/General/Networking/0_Networking_MOC.md) | Protocols, servers, baseline networking |
-| [Defensive Security](/Defensive_Security/0_Defensive_Security_MOC.md) | SOC, forensics, incident response |
-| [Offensive Security](/Offensive_Security/0_Offensive_Security_MOC.md) | Offensive methodology, exploits, privesc |
-| &nbsp;&nbsp;· [Reconnaissance](/Offensive_Security/Reconnaissance/0_Reconnaissance_MOC.md) | Nmap, active/passive recon, OSINT |
-| &nbsp;&nbsp;· [Web Pentesting](/Offensive_Security/Web_Pentesting/0_Web_Pentesting_MOC.md) | OWASP, API security, web attacks |
-| [Tools](/Tools/0_Tools_MOC.md) | Tool references and cheatsheets |
-| [Templates](/Templates/) | Note / MOC / Room writeup templates |
+| Topic                                                                                      | Description                              |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| [General — Cryptography](/General/Cryptography/0_Cryptography_MOC.md)                      | Hashing, encoding, encryption, cracking  |
+| [General — Networking](/General/Networking/0_Networking_MOC.md)                            | Protocols, servers, baseline networking  |
+| [Defensive Security](/Defensive_Security/0_Defensive_Security_MOC.md)                      | SOC, forensics, incident response        |
+| [Offensive Security](/Offensive_Security/0_Offensive_Security_MOC.md)                      | Offensive methodology, exploits, privesc |
+| &nbsp;&nbsp;· [Reconnaissance](/Offensive_Security/Reconnaissance/0_Reconnaissance_MOC.md) | Nmap, active/passive recon, OSINT        |
+| &nbsp;&nbsp;· [Web Pentesting](/Offensive_Security/Web_Pentesting/0_Web_Pentesting_MOC.md) | OWASP, API security, web attacks         |
+| [Tools](/Tools/0_Tools_MOC.md)                                                             | Tool references and cheatsheets          |
 
 ---
 
@@ -29,11 +28,11 @@ The notes are organized following the HTB Academy 3-domain model: **Offensive Se
 
 ```
 CYBER_SECURITY/
-├── General/                        # HTB General: cross-cutting fundamentals
+├── General/                        # cross-cutting fundamentals
 │   ├── Cryptography/
 │   └── Networking/
-├── Defensive_Security/             # HTB Defensive: SOC, forensics, IR
-├── Offensive_Security/             # HTB Offensive: methodology & exploits
+├── Defensive_Security/             # SOC, forensics, IR
+├── Offensive_Security/             # methodology & exploits
 │   ├── Reconnaissance/
 │   ├── Enumeration_and_Brute_Force.md
 │   ├── shell_notes.md
@@ -41,8 +40,7 @@ CYBER_SECURITY/
 │   ├── Vulnerability_Knowledge/
 │   ├── Linux_Privilege_Escalation/
 │   └── Web_Pentesting/             # OWASP, API, web attacks
-├── Tools/                          # Cross-cutting tool references & cheatsheets
-└── Templates/                      # Obsidian templates (note / MOC / writeup)
+└── Tools/                          # Cross-cutting tool references & cheatsheets
 ```
 
 Each domain folder contains an index MOC (`0_<Topic>_MOC.md`), atomic concept notes, and subfolders for topics/tools with multiple notes.
