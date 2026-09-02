@@ -20,6 +20,7 @@
 - **Naming**: snake_case file/folder names; `0_<Topic>_MOC.md` for MOCs. Watch spelling — no typos like "Peneration", "Knowladge", "Challange".
 - **Language**: All vault content in English.
 - **Tags**: MOCs use `#MOC #<topic>`; notes use `#cybersecurity #note`; status tags `status/wip` | `status/done` | `status/review` | `status/active`.
+- **Contents**: Notes may include an optional question-based `## Contents` outline under the metadata block, linking each question to its section heading via anchor links.
 
 ## Workflow
 - After any batch of edits, run the audit checklist (see below) before committing.

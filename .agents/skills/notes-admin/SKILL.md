@@ -18,7 +18,8 @@ Check the whole vault for consistency issues before committing.
 3. Check for broken relative Markdown links.
 4. Confirm MOC files follow `0_<Topic>_MOC.md` and folder/file names are snake_case.
 5. Ensure all content is English (except proper names) and dates are `YYYY-MM-DD`.
-6. Report findings as a checklist; do not fix without approval.
+6. **MOC completeness**: for every folder that has an MOC, confirm the MOC lists ALL notes and sub-MOCs in that folder, and that it contains NO template placeholders (e.g. `note-1.md`, `tool-1.md`, `Room Name`). Flag any missing entry or stale placeholder.
+7. Report findings as a checklist; do not fix without approval.
 
 Useful commands:
 ```bash
@@ -30,6 +31,14 @@ git grep -l '^---$'
 
 # List all Markdown files and their line counts
 find . -name '*.md' -not -path './.git/*' | xargs wc -l
+
+# List all MOCs
+find . -name '0_*_MOC.md' -not -path './.git/*' | sort
+
+# Compare notes vs MOC for a given folder:
+# 1) notes present  find <dir> -maxdepth 1 -name '*.md' ! -name '0_*_MOC.md'
+# 2) notes listed   grep -oE '\[[^]]+\]\([^)]+\)' <dir>/0_*_MOC.md
+# Any note in (1) not in (2) is missing from the MOC.
 ```
 
 ### 2. new-note
@@ -38,8 +47,10 @@ Create a new note in the correct domain/subfolder.
 1. Determine the topic domain from the HTB 3-domain architecture in `.goosehints`.
 2. Use the latest naming convention, e.g. `snake_case_name.md`.
 3. Generate the note body by copying `Templates/note_template.md`, filling the `<details>` metadata block (Main Topic = folder path, ISO date, status/wip).
-4. Add the new note link to its domain MOC (`0_<Topic>_MOC.md`).
-5. Confirm with the user, then commit.
+4. After the metadata block, replace the `## Contents` placeholder with the note's guiding questions as anchor links (question-based outline). Anchor rule: lowercase the heading, spaces become `-`, drop punctuation like `?` (e.g. `What are their Benefits?` → `#what-are-their-benefits`).
+5. Add the new note link to its domain MOC (`0_<Topic>_MOC.md`).
+6. Verify the MOC is complete per the `audit` MOC completeness check (all sibling notes still listed, no placeholders).
+7. Confirm with the user, then commit.
 
 ### room-writeup
 Create a THM/mini-challenge writeup using `Templates/room_writeup_template.md`.
@@ -47,16 +58,20 @@ Create a THM/mini-challenge writeup using `Templates/room_writeup_template.md`.
 1. Place the file in the domain/subfolder matching the room topic.
 2. Copy the template and fill the Writeup Metadata: Platform, Room, Task, Difficulty, Date (ISO), tags `#room #challenge`, status/wip.
 3. Fill the guided-challenge sections: Connection, Recon & Enumeration, per-Question steps, Key Takeaways.
-4. Link the writeup from the relevant domain MOC.
-5. Confirm with the user, then commit.
+4. Link the writeup from the relevant domain MOC (add/replace its row in the `## Platform Writeups` table).
+5. Verify the MOC is complete per the `audit` MOC completeness check.
+6. Confirm with the user, then commit.
 
 ### 3. moc-update
-Add or update an index MOC.
+Add or update an index MOC so it reflects the actual structure of its folder.
 
 1. Use `0_<Topic>_MOC.md` naming in the relevant domain folder.
-2. List all atomic notes in that folder as relative links.
-3. Ensure MOC metadata has `Type: Map of Content`, `Status: status/active`, and `#MOC #<topic>` tags.
-4. Cross-link related MOCs where appropriate.
+2. List ALL atomic notes in that folder (maxdepth 1) as relative links, grouped under the folder's natural sub-headings (e.g. `### Core Concepts & Sub-topics`, `### Tools`, `### Techniques`). For writeups, add a `## Platform Writeups` table.
+3. List all sub-folder MOCs in the folder as relative links.
+4. REMOVE any template placeholder entries (`note-1.md`, `tool-1.md`, `technique-1.md`, `Room Name` placeholder rows) — they are stale and misleading.
+5. Ensure MOC metadata has `Type: Map of Content`, `Status: status/active`, and `#MOC #<topic>` tags.
+6. Cross-link related MOCs where appropriate.
+7. Verify the result against the audit `MOC completeness` check before committing.
 
 ### 4. verify
 Confirmation step after edits.

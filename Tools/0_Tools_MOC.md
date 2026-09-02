@@ -22,9 +22,9 @@
 - [Nmap](/Tools/Nmap/0_Nmap_MOC.md)
 - [Metasploit](/Tools/Metasploit/0_Metasploit_MOC.md)
 - [John the Ripper](/Tools/John_the_Ripper/0_John_the_Ripper_MOC.md)
-- [Burp Suite](/Tools/Burp_Suite/0_Burp_Site_MOC.md)
+- [Burp Suite](/Tools/Burp_Suite/0_Burp_Suite_MOC.md)
 - [Hydra](/Tools/Hydra.md)
-- [Gobuster](Tools/Gobuster___Basics)
+- [Gobuster](/Tools/Gobuster___Basics.md)
 - [SQLMap](/Tools/SQLMap___The_Basics.md)
 - [OWASP Zap](/Tools/OWASP_ZAP_Introduction.md)
 

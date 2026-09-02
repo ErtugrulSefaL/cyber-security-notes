@@ -12,31 +12,22 @@
 
 </details>
 
-> Brief one-line description of this domain.
+> Standard penetration testing phases, frameworks (PTES, OWASP, MITRE ATT&CK), and how a guided engagement is structured end to end.
 
 ---
 
 ## Notes
 
 ### Core Concepts & Sub-topics
-- [Note Title](note-1.md)
-- [Sub-topic MOC](subtopic/MOC-subtopic.md)
-### Tools
-- [Tool Name](tool-1.md)
-### Techniques
-- [Technique Name](technique-1.md)
----
-## Platform Writeups
-
-| Room / Lab                                          | Platform  | Status        |
-| --------------------------------------------------- | --------- | ------------- |
-| [Room Name](../Programs/room-name/MOC-room-name.md) | TryHackMe | `status/done` |
+- [Penetration Testing Frameworks](/Offensive_Security/Penetration_Testing_Foundations/Penetration_Testing_Frameworks.md)
+- [Guided Pentest Web](/Offensive_Security/Penetration_Testing_Foundations/Guided_Pentest_Web.md)
 
 ---
 
 ## Related Topics
 
-- [Other Topic](../Other_Topic/MOC-Topic.md)
+- [Reconnaissance](/Offensive_Security/Reconnaissance/0_Reconnaissance_MOC.md)
+- [Web Pentesting](/Offensive_Security/Web_Pentesting/0_Web_Pentesting_MOC.md)
 
 ---
 
