@@ -63,3 +63,15 @@ Each domain folder contains an index MOC (`0_<Topic>_MOC.md`), atomic concept no
 | `status/done` | Complete and reviewed |
 | `status/review` | Needs revisiting |
 | `status/active` | MOCs: actively maintained index |
+
+---
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** (CC BY-NC-SA 4.0).
+
+You are free to **share** and **adapt** this content for **non-commercial** purposes, as long as you provide attribution and share your adaptations under the same license.
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Full legal text: [LICENSE](/LICENSE)  ·  Official license page: https://creativecommons.org/licenses/by-nc-sa/4.0/
